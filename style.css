@@ -118,6 +118,14 @@ label {
     margin: auto;
 }
 
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    }
+
 /* partie responsive */ 
 
 @media (max-width: 414px) {
@@ -149,7 +157,7 @@ label {
     }
 
     body {
-        background: url(img/thumb-1920-829733.png) no-repeat center fixed;
+        background: url(img/responsive.png) no-repeat center fixed;
         -webkit-background-size: cover;
         background-size: cover;
         overflow: hidden;
