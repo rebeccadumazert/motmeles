@@ -1,0 +1,157 @@
+/* body global and logo */ 
+
+
+body {
+    background: url(img/qiUOCMB.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo {
+    height: 180px;
+}
+
+/* style blocs */
+
+.global {
+    margin-left: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.left , .right {
+    position: relative;
+    bottom: 129px;
+    width: 35%;
+    background: rgba(101, 93, 174, 0.2);
+    margin: 3% 2% 2% 2%;
+    padding: 20px;
+    border-radius: 7px;
+    border: solid #ffc04a 1px;
+}
+
+.central {
+    display: block;
+    margin: auto;
+    margin-top: -45px;
+    width: 35%;
+    background: rgba(101, 93, 174, 0.2);
+    padding: 20px;
+    border-radius: 7px;
+    border: solid #ffc04a 1px;
+
+}
+
+.globalresponsive {
+    display: none;
+}
+
+/* style écritures */
+
+a {
+    text-decoration: none;
+}
+
+h3 , .regles, .play, label, p {
+    color: white;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 24px;
+    text-align: justify;
+}
+
+ul, h3, form, p {
+    text-align: center;
+}
+
+.play {
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* style boutons */
+
+button {
+    background-color: transparent;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.score {
+    display: block;
+    margin: auto;
+    height: 90px;
+}
+
+/* style formulaire inscription et connexion*/
+
+label {
+    display: block;
+    margin-bottom: 0; 
+    text-align: center;
+}
+
+.inp {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ffc04a;
+    margin-bottom: 25px;
+}
+
+/* style page score*/
+
+.score {
+    display: block;
+    margin: auto;
+}
+
+/* partie responsive */ 
+
+@media (max-width: 414px) {
+    .globalresponsive {
+        display: block;   
+    }
+
+    .left {
+        display: block;
+        width: 85%;
+        bottom: -40px;
+    }
+
+    .global {
+        display: none;
+    }
+
+    .logo {
+        height: 95px;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    .central {
+        width: 75%;
+        margin-top: 35px;
+    }
+
+    body {
+        background: url(img/thumb-1920-829733.png) no-repeat center fixed;
+        -webkit-background-size: cover;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
