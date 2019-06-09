@@ -1,0 +1,16 @@
+<html>
+    <head>
+    <?php
+        include('./templates/head.php');
+    ?>
+    </head>
+    <body>
+    <main> 
+            <?php
+                include('./templates/header.php');
+                include('./templates/main.php');
+                include('./templates/footer.php');
+            ?>         
+        </main>
+    </body>
+</html>
